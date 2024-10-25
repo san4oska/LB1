@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №1</title>
+</head>
+<body>
+    <header>
+        <h1>Лабораторна робота з HTML</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#saction1">Оформлений текст</a></li>
+            <li><a href="#saction2">Список</a></li>
+            <li><a href="#saction3">Таблиця</a></li>
+            <li><a href="#saction4">Голосування</a></li>
+        </ul>
+    </nav>
+    <main>
+            <h2 id="saction1">Оформлений текст</h2>
+            <p>Для будь-якого натурального числа n&gt;2, рівняння <i>a<sup>n</sup> + 6<sup>n</sup></i> = c<sup>n</sup> <b>не має розв'язків</b> у ненульових цілих числах a, b, c.</p>
+            <h2 id="saction2">Список</h2>
+                <ul>
+                    <li>Факультет комп’ютерних наук
+                        <ul>
+                            <li>Кафедра інформаційних управляючих систем (ІУС)</li>
+                            <li>Кафедра штучного інтелекту (ШІ)</li>
+                            <li>Кафедра системотехніки (СТ)</li>
+                            <li>Кафедра програмної інженерії (ПІ)</li>
+                            <li>Кафедра медіасистем та технологій (МСТ)</li>
+                        </ul>
+                    </li>
+                    <li>Факультет комп’ютерної інженерії та управління
+                        <ul>
+                            <li>Кафедра Комп’ютерних інтелектуальних технологій та систем (КІТС)</li>
+                            <li>Кафедра електронних обчислювальних машин (ЕОМ)</li>
+                            <li>Кафедра автоматизації проектування обчислювальної техніки (АПОТ)</li>
+                            <li>Кафедра безпеки інформаційних технологій (БІТ)</li>
+                            <li>Кафедра філософії</li>
+                            <li>Кафедра українознавства (Укр)</li>
+                        </ul>
+                    </li>
+                    <li>Факультет автоматики і комп’ютеризованих технологій
+                        <ul>
+                            <li>Кафедра комп’ютерно-інтегрованих технологій, автоматизації та робототехніки (КІТАР)</li>
+                            <li>Кафедра проектування та експлуатації електронних апаратів (ПЕЕА)</li>
+                            <li>Кафедра фізики</li>
+                            <li>Кафедра безпекової інженерії (БІ)</li>
+                        </ul>
+                    </li>
+                </ul>
+            <h2 id="saction3">Таблиця з даними курсу валют</h2>
+            <table border="2">
+                <tr>
+                    <th>Валюта</th>
+                    <th>Курс</th>
+                </tr>
+                <tr>
+                    <td>USD</td>
+                    <td>41.10</td>
+                </tr>
+                <tr>
+                    <td>EUR</td>
+                    <td>44.50</td>
+                </tr>
+                <tr>
+                    <td>PLN</td>
+                    <td>10.10</td>
+                </tr>
+                <tr>
+                    <td>GBP</td>
+                    <td>52.91</td>
+                </tr>
+                <tr>
+                    <td>CHF</td>
+                    <td>46.85</td>
+                </tr>
+            </table>
+            <h2 id="saction4">Голосування</h2>
+            <form>
+                <label for="vote">Ваш вибір:</label><br>
+                <input type="radio" id="option1" name="vote" value="option1">
+                <label for="option1">Факультет комп’ютерних наук</label><br>
+                <input type="radio" id="option2" name="vote" value="option2">
+                <label for="option2">Факультет комп’ютерної інженерії та управління</label><br>
+                <input type="radio" id="option3" name="vote" value="option3">
+                <label for="option3">Факультет автоматики і комп’ютеризованих технологій</label><br>
+                <input type="submit" value="Голосувати">
+            </form>
+    </main>
+    <footer style="text-align: center;">
+        <p>© 2024 Лабораторна робота з HTML.</p>
+    </footer>
+</body>
+</html>
